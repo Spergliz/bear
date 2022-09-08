@@ -10,12 +10,9 @@ function searchClicked() {
   name = name.toLowerCase();
 
   // Test Input Variable and update the page
-  if (name === 'po'|| name === 'dragon warrior') { ChangeCharacter
+  if (name === 'po'|| name === 'dragon warrior') { change('Po','po','buddy')
   } else if (name === 'tigress' || name === 'master tigress') {
-    // Update page to Tigress
-    document.getElementById('character-name').innerHTML = 'Master Tigress';
-    document.getElementById('main-img').src = 'img/tigress.png';
-    document.getElementById('quote').innerHTML = 'That was pretty hardcore!';
+    change('tigress','tigress','That was pretty hardcore!'
   } else if (name === 'mantis' || name === 'master mantis') {
     // Update page to Mantis
     document.getElementById('character-name').innerHTML = 'Master Mantis';
@@ -55,11 +52,10 @@ function searchClicked() {
     document.getElementById('main-img').src = 'img/question-mark.png';
     document.getElementById('quote').innerHTML = 'Character Not Found';
   }
-function ChangeCharacter (){
-  if (name === 'po' || name === 'dragon warrior') {
+}
+function change (name,imgname,quote){
     // Update page to Po
-    document.getElementById('character-name').innerHTML = 'Po';
-    document.getElementById('main-img').src = 'img/po.png';
-    document.getElementById('quote').innerHTML =
-      'Buddy, I am the Dragon Warrior.';
+    document.getElementById('character-name').innerHTML = name;
+    document.getElementById('main-img').src = `img/${imgname}.png`;
+    document.getElementById('quote').innerHTML =quote;
 }
