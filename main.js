@@ -10,7 +10,7 @@ function searchClicked() {
   name = name.toLowerCase();
 
   // Test Input Variable and update the page
-  
+  if (name === 'po'|| name === 'dragon warrior') { ChangeCharacter
   } else if (name === 'tigress' || name === 'master tigress') {
     // Update page to Tigress
     document.getElementById('character-name').innerHTML = 'Master Tigress';
@@ -55,7 +55,6 @@ function searchClicked() {
     document.getElementById('main-img').src = 'img/question-mark.png';
     document.getElementById('quote').innerHTML = 'Character Not Found';
   }
-
 function ChangeCharacter (){
   if (name === 'po' || name === 'dragon warrior') {
     // Update page to Po
@@ -63,4 +62,4 @@ function ChangeCharacter (){
     document.getElementById('main-img').src = 'img/po.png';
     document.getElementById('quote').innerHTML =
       'Buddy, I am the Dragon Warrior.';
-}}
+}
