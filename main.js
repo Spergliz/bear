@@ -10,7 +10,8 @@ function searchClicked() {
   name = name.toLowerCase();
 
   // Test Input Variable and update the page
-  if (name === 'po'|| name === 'dragon warrior') { change('Po','po','buddy00')
+  if (name === 'po'|| name === 'dragon warrior') 
+  { change('Po','po','buddy00')
   } else if (name === 'tigress' || name === 'master tigress') {
     change('tigress','tigress','That was pretty hardcore!'
   } else if (name === 'mantis' || name === 'master mantis') {
