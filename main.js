@@ -34,4 +34,4 @@ function change (name,imgname,quote){
     document.getElementById('main-img').src = `img/${imgname}.png`;
     document.getElementById('quote').innerHTML =quote;
 }
-//god have mercy on me my hands hurt, i need to add a clipboard to ubuntu baddly 
+//god have mercy on me my hands are sorta cramping , i need to add a clipboard to ubuntu baddly 
