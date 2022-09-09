@@ -15,10 +15,7 @@ function searchClicked() {
   } else if (name === 'tigress' || name === 'master tigress') {
     change('tigress','tigress','That was pretty hardcore!'
   } else if (name === 'mantis' || name === 'master mantis') {
-    // Update page to Mantis
-    document.getElementById('character-name').innerHTML = 'Master Mantis';
-    document.getElementById('main-img').src = 'img/mantis.png';
-    document.getElementById('quote').innerHTML = 'Fear the bug!';
+    change('mantis', )
   } else if (name === 'monkey' || name === 'master monkey') {
     // Update page to Monkey
     document.getElementById('character-name').innerHTML = 'Master Monkey';
