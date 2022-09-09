@@ -10,23 +10,19 @@ function searchClicked() {
   name = name.toLowerCase();
 
   // Test Input Variable and update the page
-  if (name === 'po'|| name === 'dragon warrior') 
-  { change('Po','po','buddy00')
+  if (name === 'po'|| name === 'dragon warrior') { change('Po','po','buddy')
   } else if (name === 'tigress' || name === 'master tigress') {
-    change('tigress','tigress','That was pretty hardcore!'
+    change('tigress','tigress','That was pretty hardcore!'  )
   } else if (name === 'mantis' || name === 'master mantis') {
-    change('mantis', )
+    change('Master Mantis','mantis','Fear the bug!')
   } else if (name === 'monkey' || name === 'master monkey') {
-    // Update page to Monkey
-    document.getElementById('character-name').innerHTML = 'Master Monkey';
-    document.getElementById('main-img').src = 'img/monkey.png';
-    document.getElementById('quote').innerHTML = 'We should hang out.';
+    change('monkey','monkey','We should hang out')
   } else if (name === 'crane' || name === 'master crane') {
+
     // Update page to Crane
-    document.getElementById('character-name').innerHTML = 'Master Crane';
-    document.getElementById('main-img').src = 'img/crane.png';
-    document.getElementById('quote').innerHTML =
-      'You can chain my body, but you will never chain my warrior spirit!';
+   // document.getElementById('character-name').innerHTML = 'Master Crane';
+   // document.getElementById('main-img').src = 'img/crane.png';
+   // document.getElementById('quote').innerHTML = 'You can chain my body, but you will never chain my warrior spirit!';
   } else if (name === 'viper' || name === 'master viper') {
     // Update page to Viper
     document.getElementById('character-name').innerHTML = 'Master Viper';
