@@ -16,13 +16,13 @@ function searchClicked() {
   } else if (name === 'mantis' || name === 'master mantis') {
     change('Master Mantis','mantis','Fear the bug!')
   } else if (name === 'monkey' || name === 'master monkey') {
-    change('monkey','monkey','We should hang out')
+    change('Monkey','monkey','We should hang out')
   } else if (name === 'crane' || name === 'master crane') {
-
+   change('Master Crane','crane')
     // Update page to Crane
    // document.getElementById('character-name').innerHTML = 'Master Crane';
    // document.getElementById('main-img').src = 'img/crane.png';
-   // document.getElementById('quote').innerHTML = 'You can chain my body, but you will never chain my warrior spirit!';
+   // document.getElementById('quote').innerHTML ='You can chain my body, but you will never chain my warrior spirit!';
   } else if (name === 'viper' || name === 'master viper') {
     // Update page to Viper
     document.getElementById('character-name').innerHTML = 'Master Viper';
